@@ -1,0 +1,45 @@
+.counterBox{
+  text-align: center;
+}
+
+#heading{
+  font-size: 7vh;
+  color: rgb(51, 51, 218);
+}
+
+#buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+
+  
+}
+
+#count{
+  font-size: 5vh;
+  color: red;
+}
+
+.individualButton{
+  height: 5vh;
+  width: 8vw;
+  margin-left: 3vw;
+}
+
+.individualButton:hover{
+  background-color: rgb(51, 51, 218);
+  color: white;
+}
+
+
+.individualButtonReset{
+  height: 5vh;
+  width: 12vw;
+  margin-left: 3vw;
+}
+
+.individualButtonReset:hover{
+  background-color: rgb(51, 51, 218);
+  color: white;
+}
